@@ -1,0 +1,66 @@
+[
+    {
+      "title": "alert_sound",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/alert_sound.mp3"
+    },
+    {
+      "title": "bell_ringtone",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/bell_ringtone.mp3"
+    },
+    {
+      "title": "charming_bell",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/charming_bell.mp3"
+    },
+    {
+      "title": "creaking_door",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/creaking_door.mp3"
+    },
+    {
+      "title": "door_effect",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/door_effect.mp3"
+    },
+    {
+      "title": "doorbell",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/doorbell.mp3"
+    },
+    {
+      "title": "doorlock",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/doorlock.mp3"
+    },
+    {
+      "title": "hiphop",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/hiphop_sound.mp3"
+    },
+    {
+      "title": "knock_knock ",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/knock_knock_door.mp3"
+    },
+    {
+      "title": "magical",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/magical_sound.mp3"
+    },
+    {
+      "title": "note_ringtone",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/note_ringtone.mp3"
+    },
+    {
+      "title": "sms_ringtone",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/sms_ringtone.mp3"
+    },
+    {
+      "title": "think",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/think.mp3"
+    },
+    {
+      "title": "thril",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/thril.mp3"
+    },
+    {
+      "title": "water_bubble",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/water_bubble.mp3"
+    },
+    {
+      "title": "waterflow",
+      "urlSound": "https://storage.lutech.vn/app/doorlock/audio/waterflow.mp3"
+    }
+  ]
