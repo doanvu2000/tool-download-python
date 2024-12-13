@@ -1,5 +1,3 @@
-import time
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -21,8 +19,9 @@ def get_content_chapter_and_save_to_file(url,file_name):
     html_content = get_html_content(url)
 
     soup = BeautifulSoup(html_content, 'html.parser')
-    div_content = soup.find_all('div', attrs={'data-x-bind': 'ChapterContent'})
-
+    # div_content = soup.find_all('div', attrs={'data-x-bind': 'chapter-c'})
+    div_content = div_by_id = soup.find('div', id='chapter-c')
+    print(div_content)
     result = ""
     for div in div_content:
         result += div.text
@@ -32,14 +31,16 @@ def get_content_chapter_and_save_to_file(url,file_name):
     write_string_to_txt_file(result, file_name)
 
 if __name__ == "__main__":
-    url = "https://metruyencv.com/truyen/vu-luyen-dien-phong/chuong-"
-    start_chapter = 5501
-    end_chapter = 6010
-
-    for chapter_index in range(start_chapter, end_chapter):
-        # get content of chapter and save to txt file
-        full_url = f"{url}{chapter_index}"
-        chapter_name = f"data/vuluyendienphong/chap_{chapter_index}.txt"
-        get_content_chapter_and_save_to_file(full_url,chapter_name)
-        time.sleep(0.25)
+    # url = "https://metruyencv.com/truyen/vu-luyen-dien-phong/chuong-"
+    url = "https://truyenfull.io/dua-vao-khong-gian-mo-quan-an-ban-nong-san/chuong-1/"
+    # start_chapter = 5501
+    # end_chapter = 6010
+    chapter_name = f"data/test.txt"
+    get_content_chapter_and_save_to_file(url, chapter_name)
+    # for chapter_index in range(start_chapter, end_chapter):
+    #     # get content of chapter and save to txt file
+    #     full_url = f"{url}{chapter_index}"
+    #     chapter_name = f"data/vuluyendienphong/chap_{chapter_index}.txt"
+    #     get_content_chapter_and_save_to_file(full_url,chapter_name)
+    #     time.sleep(0.25)
 
